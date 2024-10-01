@@ -1,4 +1,6 @@
 ; HotKey Frequently used symbols
+;; AltGr + 2
+>!Numpad2::∨
 ;; AltGr + 5
 >!Numpad5::∧
 ;; AltGr + 8
@@ -15,6 +17,11 @@
 !š:: {
     SendInput "<sup></sup>{Left 6}"
 }
+;;
+;; Shift + Alt + Ě
+!Ě::²
+;; Shift + Alt + Š
+!Š::³
 
 ; HotKey Set symbols
 ;; Shift + AltGR + N
@@ -37,6 +44,16 @@
 :*:\cdot::⋅
 :*:\exists::∃
 :*:\forall::∀
+:*:\setminus::∖
+:*:\sqrt::√
+:*:\approx::≈
+
+:*:\ceil::{
+    SendInput "⌈⌉{Left 1}"
+}
+:*:\floor::{
+    SendInput "⌊⌋{Left 1}"
+}
 
 ; Hotstrings Serif Italic
 :*C:_a_::𝑎
@@ -91,3 +108,53 @@
 :*C:_X_::𝑋
 :*C:_Y_::𝑌
 :*C:_Z_::𝑍
+
+; Greek alphabet LaTeX hotstrings
+:*:\alpha::α
+:*:\beta::β
+:*:\gamma::γ
+:*:\delta::δ
+;:*:\epsilon::ϵ
+;:*:\zeta::ζ
+;:*:\eta::η
+;:*:\theta::θ
+;:*:\iota::ι
+;:*:\kappa::κ
+:*:\lambda::λ
+;:*:\mu::μ
+;:*:\nu::ν
+;:*:\xi::ξ
+;:*:\omicron::ο
+:*:\pi::π
+;:*:\rho::ρ
+;:*:\sigma::σ
+:*:\tau::τ
+;:*:\upsilon::υ
+:*:\phi::ϕ
+;:*:\chi::χ
+;:*:\psi::ψ
+;:*:\omega::ω
+;:*:\Alpha::A
+;:*:\Beta::B
+;:*:\Gamma::Γ
+;:*:\Delta::Δ
+;:*:\Epsilon::E
+;:*:\Zeta::Z
+;:*:\Eta::H
+;:*:\Theta::Θ
+;:*:\Iota::I
+;:*:\Kappa::K
+;:*:\Lambda::Λ
+;:*:\Mu::M
+;:*:\Nu::N
+;:*:\Xi::Ξ
+;:*:\Omicron::O
+;:*:\Pi::Π
+;:*:\Rho::P
+:*:\Sigma::Σ
+;:*:\Tau::T
+;:*:\Upsilon::Υ
+;:*:\Phi::Φ
+;:*:\Chi::X
+;:*:\Psi::Ψ
+;:*:\Omega::Ω
