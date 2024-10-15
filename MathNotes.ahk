@@ -47,13 +47,18 @@
 :*:\setminus::∖
 :*:\sqrt::√
 :*:\approx::≈
+:*:\equiv::≡
+:*:\times::×
 
+;; Not really LaTeX
 :*:\ceil::{
     SendInput "⌈⌉{Left 1}"
 }
 :*:\floor::{
     SendInput "⌊⌋{Left 1}"
 }
+
+:*:\xor::⊕ ; (\oplus)
 
 ; Hotstrings Serif Italic
 :*C:_a_::𝑎
