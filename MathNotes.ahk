@@ -9,31 +9,47 @@
 >!Numpad9::⇒
 
 ; Hotkey sub/sup
-;; Alt + Ě
+;; LeftAlt + Ě
 !ě:: {
     SendInput "<sub></sub>{Left 6}"
 }
-;; Alt + Š
+;; LeftAlt + Š
 !š:: {
     SendInput "<sup></sup>{Left 6}"
 }
 ;;
-;; Shift + Alt + Ě
-!Ě::²
-;; Shift + Alt + Š
-!Š::³
+!+::¹ ;; Shift + Alt + +
+!Ě::² ;; Shift + Alt + Ě
+!Š::³ ;; Shift + Alt + Š
+!Č::⁴ ;; Shift + Alt + Č
+!Ř::⁵ ;; Shift + Alt + Ř
+!Ž::⁶ ;; Shift + Alt + Ž
+!Ý::⁷ ;; Shift + Alt + Ý
+!Á::⁸ ;; Shift + Alt + Á
+!Í::⁹ ;; Shift + Alt + Í
+!É::⁰ ;; Shift + Alt + É
+!NumpadEnd::₁   ;; Shift + Alt + 1
+!NumpadDown::₂  ;; Shift + Alt + 2
+!NumpadPgdn::₃  ;; Shift + Alt + 3
+!NumpadLeft::₄  ;; Shift + Alt + 4
+!NumpadClear::₅ ;; Shift + Alt + 5
+!NumpadRight::₆ ;; Shift + Alt + 6
+!NumpadHome::₇  ;; Shift + Alt + 7
+!NumpadUp::₈    ;; Shift + Alt + 8
+!NumpadPgup::₉  ;; Shift + Alt + 9
+!NumpadIns::₀   ;; Shift + Alt + 0
 
 ; HotKey Set symbols
-;; Shift + AltGR + N
->!N::ℕ
-;; Shift + AltGR + Z
->!Z::ℤ
-;; Shift + AltGR + Q
->!Q::ℚ
-;; Shift + AltGR + R
->!R::ℝ
-;; Shift + AltGR + C
->!C::ℂ
+;; Shift + Alt + N
+!N::ℕ
+;; Shift + Alt + Z
+!Z::ℤ
+;; Shift + Alt + Q
+!Q::ℚ
+;; Shift + Alt + R
+!R::ℝ
+;; Shift + Alt + C
+!C::ℂ
 
 ; Hotstrings (replace when typed) LaTeX
 :*:\pm::±
@@ -49,6 +65,7 @@
 :*:\approx::≈
 :*:\equiv::≡
 :*:\times::×
+:*:\subset::⊂
 
 ;; Not really LaTeX
 :*:\ceil::{
@@ -59,6 +76,7 @@
 }
 
 :*:\xor::⊕ ; (\oplus)
+:*:\nfty::∞ ; (\infty)
 
 ; Hotstrings Serif Italic
 :*C:_a_::𝑎
