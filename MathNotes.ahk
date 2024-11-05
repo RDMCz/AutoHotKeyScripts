@@ -18,7 +18,7 @@
     SendInput "<sup></sup>{Left 6}"
 }
 ;;
-!+::¹ ;; Shift + Alt + +
++!+::¹ ;; Shift + Alt + +
 !Ě::² ;; Shift + Alt + Ě
 !Š::³ ;; Shift + Alt + Š
 !Č::⁴ ;; Shift + Alt + Č
@@ -28,6 +28,7 @@
 !Á::⁸ ;; Shift + Alt + Á
 !Í::⁹ ;; Shift + Alt + Í
 !É::⁰ ;; Shift + Alt + É
++!=::⁻ ;; Shift + Alt + =
 !NumpadEnd::₁   ;; Shift + Alt + 1
 !NumpadDown::₂  ;; Shift + Alt + 2
 !NumpadPgdn::₃  ;; Shift + Alt + 3
@@ -54,6 +55,7 @@
 ; Hotstrings (replace when typed) LaTeX
 :*:\pm::±
 :*:\in::∈
+:*:\notin::∉
 :*:\le::≤
 :*:\ge::≥
 :*:\neq::≠
@@ -66,6 +68,9 @@
 :*:\equiv::≡
 :*:\times::×
 :*:\subset::⊂
+:*:\sqsubset::⊏
+:*:\emptyset::∅
+:*:\dots::…
 
 ;; Not really LaTeX
 :*:\ceil::{
@@ -77,6 +82,10 @@
 
 :*:\xor::⊕ ; (\oplus)
 :*:\nfty::∞ ; (\infty)
+
+:*:\eqsubset::⊆
+:*:\eqsqsubset::⊑
+:*:\dotcs::⋯
 
 ; Hotstrings Serif Italic
 :*C:_a_::𝑎
@@ -137,7 +146,7 @@
 :*:\beta::β
 :*:\gamma::γ
 :*:\delta::δ
-;:*:\epsilon::ϵ
+:*:\epsilon::ε
 ;:*:\zeta::ζ
 ;:*:\eta::η
 ;:*:\theta::θ
@@ -149,7 +158,7 @@
 ;:*:\xi::ξ
 ;:*:\omicron::ο
 :*:\pi::π
-;:*:\rho::ρ
+:*:\rho::ρ
 ;:*:\sigma::σ
 :*:\tau::τ
 ;:*:\upsilon::υ
