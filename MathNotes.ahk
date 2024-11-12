@@ -1,4 +1,8 @@
 ; HotKey Frequently used symbols
+;; AltGr + 1
+>!Numpad1::∪
+;; AltGr + 4
+>!Numpad4::∩
 ;; AltGr + 2
 >!Numpad2::∨
 ;; AltGr + 5
@@ -168,7 +172,7 @@
 ;:*:\omega::ω
 ;:*:\Alpha::A
 ;:*:\Beta::B
-;:*:\Gamma::Γ
+:*:\Gamma::Γ
 ;:*:\Delta::Δ
 ;:*:\Epsilon::E
 ;:*:\Zeta::Z
