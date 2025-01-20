@@ -33,6 +33,7 @@
 !Í::⁹ ;; Shift + Alt + Í
 !É::⁰ ;; Shift + Alt + É
 +!=::⁻ ;; Shift + Alt + =
++!ˇ::⁺ ;; Shift + Alt + ˇ
 !NumpadEnd::₁   ;; Shift + Alt + 1
 !NumpadDown::₂  ;; Shift + Alt + 2
 !NumpadPgdn::₃  ;; Shift + Alt + 3
@@ -43,6 +44,8 @@
 !NumpadUp::₈    ;; Shift + Alt + 8
 !NumpadPgup::₉  ;; Shift + Alt + 9
 !NumpadIns::₀   ;; Shift + Alt + 0
+!NumpadAdd::₊   ;; Shift + Alt + +
+!NumpadSub::₋   ;; Shift + Alt + -
 
 ; HotKey Set symbols
 ;; Shift + Alt + N
@@ -169,7 +172,7 @@
 :*:\phi::ϕ
 ;:*:\chi::χ
 ;:*:\psi::ψ
-;:*:\omega::ω
+:*:\omega::ω
 ;:*:\Alpha::A
 ;:*:\Beta::B
 :*:\Gamma::Γ
