@@ -7,6 +7,8 @@
 >!Numpad2::∨
 ;; AltGr + 5
 >!Numpad5::∧
+;; AltGr + 6
+>!Numpad6::⇝
 ;; AltGr + 8
 >!Numpad8::⇔
 ;; AltGr + 9
