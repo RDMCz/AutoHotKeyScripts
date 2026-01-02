@@ -14,7 +14,11 @@
 ;; AltGr + 9
 >!Numpad9::⇒
 
-; Hotkey sub/sup
+; Hotkey sub/sup etc.
+;; LeftAlt + +
+!+:: {
+    SendInput "<i></i>{Left 4}"
+}
 ;; LeftAlt + Ě
 !ě:: {
     SendInput "<sub></sub>{Left 6}"
@@ -23,7 +27,8 @@
 !š:: {
     SendInput "<sup></sup>{Left 6}"
 }
-;;
+
+; Upper/Lower index numbers
 +!+::¹ ;; Shift + Alt + +
 !Ě::² ;; Shift + Alt + Ě
 !Š::³ ;; Shift + Alt + Š
@@ -173,7 +178,7 @@
 ;:*:\upsilon::υ
 :*:\phi::ϕ
 ;:*:\chi::χ
-;:*:\psi::ψ
+:*:\psi::ψ
 :*:\omega::ω
 ;:*:\Alpha::A
 ;:*:\Beta::B
