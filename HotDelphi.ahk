@@ -1,3 +1,10 @@
+; Run as admin so it works in admin Delphi
+
+if !A_IsAdmin {
+    Run '*RunAs "' A_ScriptFullPath '"'
+    ExitApp
+}
+
 ; AltGr + T ; Insert a 150 char long separator: {---...---}
 
 <^>!T::{
@@ -20,9 +27,23 @@
     SendInput "{Home}+{End}^c{End}{Enter}{Home}^v"
 }
 
-; Close madEcept with just Esc ?
+; AltGr + DownArrow ; Move line down (?)
 
-#HotIf WinActive("ahk_exe TODO")
+<^>!Down::{
+    ; Home, Shift+End, Ctrl+X, Delete, DownArrow, Enter, UpArrow, Home, Ctrl+V
+    SendInput "{Home}+{End}^x{Delete}{Down}{Enter}{Up}{Home}^v"
+}
+
+; AltGr + UpArrow ; Move line up (?)
+
+<^>!Up::{
+    ; Home, Shift+End, Ctrl+X, Delete, UpArrow, Enter, UpArrow, Home, Ctrl+V
+    SendInput "{Home}+{End}^x{Delete}{Up}{Enter}{Up}{Home}^v"
+}
+
+; Close madExcept with just Esc
+
+#HotIf WinActive("ahk_exe madExceptViewer.exe")
     ~Esc::{
         Sleep 50
         Send "!n"
