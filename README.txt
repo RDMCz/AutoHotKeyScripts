@@ -5,6 +5,8 @@ These scripts are made with CZ keyboard layout in mind and may not work properly
 * For personal use in Delphi IDE
 * Notable hotkeys:
   * AltGr + O to duplicate current line
+  * AltGr + ↑ to move line up
+  * AltGr + ↓ to move line down
 
 = MathNotes.ahk =
 

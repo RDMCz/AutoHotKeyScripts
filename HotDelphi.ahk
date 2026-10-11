@@ -24,20 +24,23 @@ if !A_IsAdmin {
 
 <^>!O::{
     ; Home, Shift+End, Ctrl+C, End, Enter, Ctrl+V
+    A_Clipboard := ""
     SendInput "{Home}+{End}^c{End}{Enter}{Home}^v"
 }
 
-; AltGr + DownArrow ; Move line down (?)
+; AltGr + DownArrow ; Move line down
 
 <^>!Down::{
     ; Home, Shift+End, Ctrl+X, Delete, DownArrow, Enter, UpArrow, Home, Ctrl+V
+    A_Clipboard := ""
     SendInput "{Home}+{End}^x{Delete}{Down}{Enter}{Up}{Home}^v"
 }
 
-; AltGr + UpArrow ; Move line up (?)
+; AltGr + UpArrow ; Move line up
 
 <^>!Up::{
     ; Home, Shift+End, Ctrl+X, Delete, UpArrow, Enter, UpArrow, Home, Ctrl+V
+    A_Clipboard := ""
     SendInput "{Home}+{End}^x{Delete}{Up}{Enter}{Up}{Home}^v"
 }
 
