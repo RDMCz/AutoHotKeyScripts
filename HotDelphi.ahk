@@ -44,6 +44,17 @@ if !A_IsAdmin {
     SendInput "{Home}+{End}^x{Delete}{Up}{Enter}{Up}{Home}^v"
 }
 
+; AltGr + LeftArrow ; Copy line
+
+<^>!Left::{
+    SendInput "{Home}+{End}^c{End}"
+}
+
+; AltGr + RightArrow ; Paste line
+
+<^>!Right::{
+    SendInput "{End}{Enter}{Home}^v"
+}
 ; Close madExcept with just Esc
 
 #HotIf WinActive("ahk_exe madExceptViewer.exe")
